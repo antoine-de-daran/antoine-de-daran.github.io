@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antoine de Daran</title>
+    <link>https://antoine-de-daran.github.io</link>
+    <description>Writing about machine learning, AI systems, and engineering.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://antoine-de-daran.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Hello World: Why I'm Starting This Blog</title>
+      <link>https://antoine-de-daran.github.io/blog/posts/hello-world.html</link>
+      <guid>https://antoine-de-daran.github.io/blog/posts/hello-world.html</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <description>Announcing my new blog where I'll share learnings about ML, AI, and building useful systems.</description>
+    </item>
+
+  </channel>
+</rss>

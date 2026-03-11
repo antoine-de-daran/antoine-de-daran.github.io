@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .letter { fill: #1a1a2e; }
+    @media (prefers-color-scheme: dark) {
+      .letter { fill: #e2e4e8; }
+    }
+  </style>
+  <!-- A -->
+  <path class="letter" fill-rule="evenodd"
+        d="M5,85 L20,15 L35,85Z M16,65 L20,44 L24,65Z"/>
+  <!-- d -->
+  <path class="letter" fill-rule="evenodd"
+        d="M50,15 L61,15 L61,85 L50,85
+           C34,85 34,44 50,44 L50,15Z
+           M50,54 C44,54 44,75 50,75Z"/>
+  <!-- D -->
+  <path class="letter" fill-rule="evenodd"
+        d="M65,15 L76,15 C96,15 96,85 76,85 L65,85Z
+           M76,27 C85,27 85,73 76,73Z"/>
+</svg>
