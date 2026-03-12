@@ -18,9 +18,6 @@
   --border: #e2e8f0;
   --code-bg: #f1f5f9;
   --code-text: #1a1a2e;
-  --tag-bg: #e2e8f0;
-  --tag-text: #475569;
-  --blockquote-bg: transparent;
   --shadow: rgba(0, 0, 0, 0.06);
 
   /* Typography */
@@ -39,17 +36,14 @@
 /* Dark mode */
 .dark {
   --bg: #0f0f1a;
-  --bg-secondary: #161625;
-  --text: #e2e4e8;
-  --text-muted: #94a3b8;
-  --accent: #8CB4E1;
-  --accent-hover: #ADC8EB;
-  --border: #1e293b;
-  --code-bg: #1e1e2e;
-  --code-text: #e2e4e8;
-  --tag-bg: #1e293b;
-  --tag-text: #94a3b8;
-  --blockquote-bg: transparent;
+  --bg-secondary: #191928;
+  --text: #e8eaed;
+  --text-muted: #a0b0c4;
+  --accent: #6aadff;
+  --accent-hover: #8ec3ff;
+  --border: #283040;
+  --code-bg: #1a1a2a;
+  --code-text: #e8eaed;
   --shadow: rgba(0, 0, 0, 0.3);
 }
 
@@ -167,7 +161,6 @@ hr {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  list-style: none;
 }
 
 .nav-links a {
@@ -247,33 +240,9 @@ hr {
   border-bottom: none;
 }
 
-.post-date {
-  flex-shrink: 0;
-  width: 100px;
-  color: var(--text-muted);
-  font-family: var(--font-mono);
-  font-size: 0.825rem;
-}
-
-.post-title a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.15s ease;
-}
-
-.post-title a:hover {
-  color: var(--accent);
-}
-
 /* --------------------------------------------------------------------------
    Project Cards
    -------------------------------------------------------------------------- */
-
-.project-grid {
-  display: grid;
-  gap: 1.25rem;
-}
 
 .project-card {
   border: 1px solid var(--border);
@@ -315,23 +284,6 @@ hr {
   color: var(--text-muted);
   font-size: 0.95rem;
   margin-bottom: 0.75rem;
-}
-
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.tag {
-  display: inline-block;
-  background-color: var(--tag-bg);
-  color: var(--tag-text);
-  font-size: 0.75rem;
-  font-family: var(--font-mono);
-  padding: 0.15rem 0.55rem;
-  border-radius: 4px;
-  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 /* --------------------------------------------------------------------------
@@ -476,12 +428,6 @@ hr {
   margin-bottom: 0.5rem;
 }
 
-.post-meta {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-family: var(--font-mono);
-}
-
 /* --------------------------------------------------------------------------
    Footer
    -------------------------------------------------------------------------- */
@@ -518,26 +464,8 @@ hr {
 }
 
 /* --------------------------------------------------------------------------
-   Section headings
-   -------------------------------------------------------------------------- */
-
-.section-title {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.3rem;
-}
-
-/* --------------------------------------------------------------------------
    Badge Links (Sponsor / Ko-fi)
    -------------------------------------------------------------------------- */
-
-.sponsor-badges {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin: 1.5rem 0;
-  flex-wrap: wrap;
-}
 
 .badge-link {
   display: inline-flex;
@@ -593,63 +521,6 @@ hr {
 }
 
 /* --------------------------------------------------------------------------
-   FAQ / Details
-   -------------------------------------------------------------------------- */
-
-details {
-  border-bottom: 1px solid var(--border);
-  padding: 1rem 0;
-  transition: border-color 0.2s ease;
-}
-
-details:last-of-type {
-  border-bottom: none;
-}
-
-details summary {
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 1.05rem;
-  color: var(--text);
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-details summary::marker {
-  display: none;
-  content: "";
-}
-
-details summary::after {
-  content: "+";
-  font-size: 1.25rem;
-  color: var(--text-muted);
-  flex-shrink: 0;
-  transition: transform 0.2s ease;
-}
-
-details[open] summary::after {
-  content: "\2212";
-}
-
-details .answer {
-  margin-top: 0.75rem;
-  color: var(--text-muted);
-  line-height: 1.7;
-}
-
-details .answer a {
-  color: var(--accent);
-}
-
-/* --------------------------------------------------------------------------
    Utility Classes
    -------------------------------------------------------------------------- */
 
@@ -696,10 +567,6 @@ details .answer a {
   .post-item {
     flex-direction: column;
     gap: 0.15rem;
-  }
-
-  .post-date {
-    width: auto;
   }
 
   .post-content pre {

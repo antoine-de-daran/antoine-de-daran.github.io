@@ -26,6 +26,10 @@ No build step, no dependencies, no package.json. Edit HTML/CSS/JS directly.
 - **Assets**: `assets/favicon.svg` (SVG monogram), `assets/og-image.png` (1200x630 OG image)
 - **RSS**: `feed.xml` at root, manually maintained
 
+## Writing
+
+All written content (page copy, blog posts, descriptions) must follow the guidelines in @TONE.md. Read it before writing or editing any text.
+
 ## Conventions
 
 ### Asset paths
